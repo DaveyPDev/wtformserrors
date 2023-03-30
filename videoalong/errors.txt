@@ -1,0 +1,1344 @@
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/app.py", line 3, in <module>
+    from models import db, connect_db, User, Employee
+ImportError: cannot import name 'Employee' from 'models' (/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/models.py)
+
+'FLASK_ENV' is deprecated and will not be used in Flask 2.3. Use 'FLASK_DEBUG' instead.
+ * Debugger is active!
+ * Debugger PIN: 120-418-896
+127.0.0.1 - - [30/Mar/2023 18:59:44] "GET /phones HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 906, in app
+    raise err from None
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 226, in locate_app
+    ) from None
+flask.cli.NoAppException: While importing 'app', an ImportError was raised:
+
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/app.py", line 3, in <module>
+    from models import db, connect_db, User, Employee
+ImportError: cannot import name 'Employee' from 'models' (/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/models.py)
+
+127.0.0.1 - - [30/Mar/2023 18:59:44] "GET /phones?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+127.0.0.1 - - [30/Mar/2023 18:59:44] "GET /phones?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+127.0.0.1 - - [30/Mar/2023 18:59:44] "GET /phones?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+127.0.0.1 - - [30/Mar/2023 18:59:44] "GET /phones?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+ * Detected change in '/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/models.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/app.py", line 3, in <module>
+    from models import db, connect_db, User, Employee
+  File "/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/models.py", line 21
+    department_id = db.Column(db.Integer, db.ForeignKey("depa
+                                                            ^
+SyntaxError: EOL while scanning string literal
+'FLASK_ENV' is deprecated and will not be used in Flask 2.3. Use 'FLASK_DEBUG' instead.
+ * Debugger is active!
+ * Debugger PIN: 120-418-896
+127.0.0.1 - - [30/Mar/2023 19:00:17] "GET /phones HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 906, in app
+    raise err from None
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/app.py", line 3, in <module>
+    from models import db, connect_db, User, Employee
+  File "/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/models.py", line 21
+    department_id = db.Column(db.Integer, db.ForeignKey("depa
+                                                            ^
+SyntaxError: EOL while scanning string literal
+127.0.0.1 - - [30/Mar/2023 19:00:17] "GET /phones?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+127.0.0.1 - - [30/Mar/2023 19:00:17] "GET /phones?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+127.0.0.1 - - [30/Mar/2023 19:00:17] "GET /phones?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+127.0.0.1 - - [30/Mar/2023 19:00:17] "GET /phones?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+ * Detected change in '/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/models.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 226, in locate_app
+    ) from None
+flask.cli.NoAppException: While importing 'app', an ImportError was raised:
+
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/app.py", line 3, in <module>
+    from models import db, connect_db, User, Employee
+ImportError: cannot import name 'connect_db' from 'models' (/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/models.py)
+
+'FLASK_ENV' is deprecated and will not be used in Flask 2.3. Use 'FLASK_DEBUG' instead.
+ * Debugger is active!
+ * Debugger PIN: 120-418-896
+127.0.0.1 - - [30/Mar/2023 19:00:42] "GET /phones HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 906, in app
+    raise err from None
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 226, in locate_app
+    ) from None
+flask.cli.NoAppException: While importing 'app', an ImportError was raised:
+
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/app.py", line 3, in <module>
+    from models import db, connect_db, User, Employee
+ImportError: cannot import name 'connect_db' from 'models' (/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/models.py)
+
+127.0.0.1 - - [30/Mar/2023 19:00:42] "GET /phones?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+127.0.0.1 - - [30/Mar/2023 19:00:42] "GET /phones?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+127.0.0.1 - - [30/Mar/2023 19:00:42] "GET /phones?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+127.0.0.1 - - [30/Mar/2023 19:00:42] "GET /phones?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+127.0.0.1 - - [30/Mar/2023 19:01:19] "GET /snacks/new?name=Bubba&price=4&quantity=1 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 906, in app
+    raise err from None
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/werkzeug/debug/__init__.py", line 329, in debug_application
+    app_iter = self.app(environ, start_response)
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 906, in app
+    raise err from None
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 226, in locate_app
+    ) from None
+flask.cli.NoAppException: While importing 'app', an ImportError was raised:
+
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/Flask/firstflaskapp/Blogly/flask-blogly/take2/venv/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/app.py", line 3, in <module>
+    from models import db, connect_db, User, Employee
+ImportError: cannot import name 'connect_db' from 'models' (/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/models.py)
+
+127.0.0.1 - - [30/Mar/2023 19:01:19] "GET /snacks/new?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+^C%                                                                                          (venv) windie@Davids-MBP videoalong % cd .
+(venv) windie@Davids-MBP videoalong % cd ..
+(venv) windie@Davids-MBP flask-wtforms-demo % ls
+VideoAlong		forms.py		templates
+VideoDemo		models.py		tests.py
+__pycache__		requirements.txt
+app.py			seed.py
+(venv) windie@Davids-MBP flask-wtforms-demo % cd ..
+(venv) windie@Davids-MBP flask % ls 
+firstflaskapp			flask-wtforms-demo
+flask-apis			pokeapi
+flask-cupcakes			source
+flask-hashing-login-demo	venv
+flask-rest-json-api-demo
+(venv) windie@Davids-MBP flask % cd ..
+(venv) windie@Davids-MBP sec % ls
+Flask		JS		SEC Course
+IntermFlask	Python		SQL
+(venv) windie@Davids-MBP sec % cd intermflask
+(venv) windie@Davids-MBP intermflask % ls 
+flask-wtforms-demo
+(venv) windie@Davids-MBP intermflask % cd flask
+cd: no such file or directory: flask
+(venv) windie@Davids-MBP intermflask % cd flask-wtforms-demo 
+(venv) windie@Davids-MBP flask-wtforms-demo % ls
+VideoDemo		models.py		templates
+app.py			requirements.txt	tests.py
+forms.py		seed.py
+(venv) windie@Davids-MBP flask-wtforms-demo % python3 -m venv venv
+(venv) windie@Davids-MBP flask-wtforms-demo % deactivate
+windie@Davids-MBP flask-wtforms-demo % source venv/bin/activate
+(venv) windie@Davids-MBP flask-wtforms-demo % ls
+VideoDemo		models.py		templates
+app.py			requirements.txt	tests.py
+forms.py		seed.py			venv
+(venv) windie@Davids-MBP flask-wtforms-demo % pip3 install -r requirements.txt
+Collecting Flask
+  Using cached Flask-2.2.3-py3-none-any.whl (101 kB)
+Collecting Flask-DebugToolbar
+  Using cached Flask_DebugToolbar-0.13.1-py3-none-any.whl (324 kB)
+Collecting Flask-SQLAlchemy
+  Using cached Flask_SQLAlchemy-3.0.3-py3-none-any.whl (24 kB)
+Collecting Flask-WTF
+  Using cached Flask_WTF-1.1.1-py3-none-any.whl (12 kB)
+Collecting psycopg2-binary
+  Using cached psycopg2_binary-2.9.5-cp37-cp37m-macosx_10_15_x86_64.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (2.2 MB)
+Collecting SQLAlchemy
+  Using cached SQLAlchemy-2.0.7-cp37-cp37m-macosx_10_9_x86_64.whl (2.0 MB)
+Collecting WTForms
+  Using cached WTForms-3.0.1-py3-none-any.whl (136 kB)
+Collecting itsdangerous>=2.0
+  Using cached itsdangerous-2.1.2-py3-none-any.whl (15 kB)
+Collecting click>=8.0
+  Using cached click-8.1.3-py3-none-any.whl (96 kB)
+Collecting Werkzeug>=2.2.2
+  Using cached Werkzeug-2.2.3-py3-none-any.whl (233 kB)
+Collecting Jinja2>=3.0
+  Using cached Jinja2-3.1.2-py3-none-any.whl (133 kB)
+Collecting importlib-metadata>=3.6.0
+  Using cached importlib_metadata-6.1.0-py3-none-any.whl (21 kB)
+Collecting Blinker
+  Using cached blinker-1.5-py2.py3-none-any.whl (12 kB)
+Collecting greenlet!=0.4.17
+  Using cached greenlet-2.0.2-cp37-cp37m-macosx_10_15_x86_64.whl (240 kB)
+Collecting typing-extensions>=4.2.0
+  Using cached typing_extensions-4.5.0-py3-none-any.whl (27 kB)
+Collecting MarkupSafe
+  Using cached MarkupSafe-2.1.2-cp37-cp37m-macosx_10_9_x86_64.whl (13 kB)
+Collecting zipp>=0.5
+  Using cached zipp-3.15.0-py3-none-any.whl (6.8 kB)
+Installing collected packages: zipp, typing-extensions, psycopg2-binary, MarkupSafe, itsdangerous, greenlet, Blinker, WTForms, Werkzeug, Jinja2, importlib-metadata, SQLAlchemy, click, Flask, Flask-WTF, Flask-SQLAlchemy, Flask-DebugToolbar
+Successfully installed Blinker-1.5 Flask-2.2.3 Flask-DebugToolbar-0.13.1 Flask-SQLAlchemy-3.0.3 Flask-WTF-1.1.1 Jinja2-3.1.2 MarkupSafe-2.1.2 SQLAlchemy-2.0.7 WTForms-3.0.1 Werkzeug-2.2.3 click-8.1.3 greenlet-2.0.2 importlib-metadata-6.1.0 itsdangerous-2.1.2 psycopg2-binary-2.9.5 typing-extensions-4.5.0 zipp-3.15.0
+WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+You should consider upgrading via the '/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/bin/python3 -m pip install --upgrade pip' command.
+(venv) windie@Davids-MBP flask-wtforms-demo % FLASK_DEBUG flask run
+zsh: command not found: FLASK_DEBUG
+(venv) windie@Davids-MBP flask-wtforms-demo % flask run
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 1050, in main
+    cli.main()
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 911, in run_command
+    raise e from None
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/app.py", line 3, in <module>
+    from models import db, connect_db, User
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/models.py", line 5, in <module>
+    db = SQLAlchemy()
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 715, in __init__
+    self.session = self.create_scoped_session(session_options)
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 748, in create_scoped_session
+    scopefunc = options.pop('scopefunc', _app_ctx_stack.__ident_func__)
+AttributeError: '_FakeStack' object has no attribute '__ident_func__'
+(venv) windie@Davids-MBP flask-wtforms-demo % pip3 install flask-sqlalchemy
+Requirement already satisfied: flask-sqlalchemy in ./venv/lib/python3.7/site-packages (3.0.3)
+Requirement already satisfied: SQLAlchemy>=1.4.18 in ./venv/lib/python3.7/site-packages (from flask-sqlalchemy) (2.0.7)
+Requirement already satisfied: Flask>=2.2 in ./venv/lib/python3.7/site-packages (from flask-sqlalchemy) (2.2.3)
+Requirement already satisfied: Werkzeug>=2.2.2 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (2.2.3)
+Requirement already satisfied: itsdangerous>=2.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (2.1.2)
+Requirement already satisfied: click>=8.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (8.1.3)
+Requirement already satisfied: importlib-metadata>=3.6.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (6.1.0)
+Requirement already satisfied: Jinja2>=3.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (3.1.2)
+Requirement already satisfied: typing-extensions>=4.2.0 in ./venv/lib/python3.7/site-packages (from SQLAlchemy>=1.4.18->flask-sqlalchemy) (4.5.0)
+Requirement already satisfied: greenlet!=0.4.17 in ./venv/lib/python3.7/site-packages (from SQLAlchemy>=1.4.18->flask-sqlalchemy) (2.0.2)
+Requirement already satisfied: zipp>=0.5 in ./venv/lib/python3.7/site-packages (from importlib-metadata>=3.6.0->Flask>=2.2->flask-sqlalchemy) (3.15.0)
+Requirement already satisfied: MarkupSafe>=2.0 in ./venv/lib/python3.7/site-packages (from Jinja2>=3.0->Flask>=2.2->flask-sqlalchemy) (2.1.2)
+WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+You should consider upgrading via the '/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/bin/python3 -m pip install --upgrade pip' command.
+(venv) windie@Davids-MBP flask-wtforms-demo % pip3 install psycopg2-binary
+Requirement already satisfied: psycopg2-binary in ./venv/lib/python3.7/site-packages (2.9.5)
+WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+You should consider upgrading via the '/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/bin/python3 -m pip install --upgrade pip' command.
+(venv) windie@Davids-MBP flask-wtforms-demo % flask run
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 1050, in main
+    cli.main()
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 911, in run_command
+    raise e from None
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/app.py", line 3, in <module>
+    from models import db, connect_db, User
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/models.py", line 5, in <module>
+    db = SQLAlchemy()
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 715, in __init__
+    self.session = self.create_scoped_session(session_options)
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 748, in create_scoped_session
+    scopefunc = options.pop('scopefunc', _app_ctx_stack.__ident_func__)
+AttributeError: '_FakeStack' object has no attribute '__ident_func__'
+(venv) windie@Davids-MBP flask-wtforms-demo % pip3 install flask-sqlalchemy
+Requirement already satisfied: flask-sqlalchemy in ./venv/lib/python3.7/site-packages (3.0.3)
+Requirement already satisfied: SQLAlchemy>=1.4.18 in ./venv/lib/python3.7/site-packages (from flask-sqlalchemy) (2.0.7)
+Requirement already satisfied: Flask>=2.2 in ./venv/lib/python3.7/site-packages (from flask-sqlalchemy) (2.2.3)
+Requirement already satisfied: Werkzeug>=2.2.2 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (2.2.3)
+Requirement already satisfied: click>=8.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (8.1.3)
+Requirement already satisfied: Jinja2>=3.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (3.1.2)
+Requirement already satisfied: importlib-metadata>=3.6.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (6.1.0)
+Requirement already satisfied: itsdangerous>=2.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (2.1.2)
+Requirement already satisfied: greenlet!=0.4.17 in ./venv/lib/python3.7/site-packages (from SQLAlchemy>=1.4.18->flask-sqlalchemy) (2.0.2)
+Requirement already satisfied: typing-extensions>=4.2.0 in ./venv/lib/python3.7/site-packages (from SQLAlchemy>=1.4.18->flask-sqlalchemy) (4.5.0)
+Requirement already satisfied: zipp>=0.5 in ./venv/lib/python3.7/site-packages (from importlib-metadata>=3.6.0->Flask>=2.2->flask-sqlalchemy) (3.15.0)
+Requirement already satisfied: MarkupSafe>=2.0 in ./venv/lib/python3.7/site-packages (from Jinja2>=3.0->Flask>=2.2->flask-sqlalchemy) (2.1.2)
+WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+You should consider upgrading via the '/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/bin/python3 -m pip install --upgrade pip' command.
+(venv) windie@Davids-MBP flask-wtforms-demo % flask run
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 1050, in main
+    cli.main()
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 911, in run_command
+    raise e from None
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/app.py", line 3, in <module>
+    from models import db, connect_db, User
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/models.py", line 5, in <module>
+    db = SQLAlchemy()
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 715, in __init__
+    self.session = self.create_scoped_session(session_options)
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 748, in create_scoped_session
+    scopefunc = options.pop('scopefunc', _app_ctx_stack.__ident_func__)
+AttributeError: '_FakeStack' object has no attribute '__ident_func__'
+(venv) windie@Davids-MBP flask-wtforms-demo % pip3 install --upgrade flask
+Requirement already satisfied: flask in ./venv/lib/python3.7/site-packages (2.2.3)
+Requirement already satisfied: itsdangerous>=2.0 in ./venv/lib/python3.7/site-packages (from flask) (2.1.2)
+Requirement already satisfied: importlib-metadata>=3.6.0 in ./venv/lib/python3.7/site-packages (from flask) (6.1.0)
+Requirement already satisfied: click>=8.0 in ./venv/lib/python3.7/site-packages (from flask) (8.1.3)
+Requirement already satisfied: Werkzeug>=2.2.2 in ./venv/lib/python3.7/site-packages (from flask) (2.2.3)
+Requirement already satisfied: Jinja2>=3.0 in ./venv/lib/python3.7/site-packages (from flask) (3.1.2)
+Requirement already satisfied: typing-extensions>=3.6.4 in ./venv/lib/python3.7/site-packages (from importlib-metadata>=3.6.0->flask) (4.5.0)
+Requirement already satisfied: zipp>=0.5 in ./venv/lib/python3.7/site-packages (from importlib-metadata>=3.6.0->flask) (3.15.0)
+Requirement already satisfied: MarkupSafe>=2.0 in ./venv/lib/python3.7/site-packages (from Jinja2>=3.0->flask) (2.1.2)
+WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+You should consider upgrading via the '/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/bin/python3 -m pip install --upgrade pip' command.
+(venv) windie@Davids-MBP flask-wtforms-demo % flask run
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 1050, in main
+    cli.main()
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 911, in run_command
+    raise e from None
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/app.py", line 3, in <module>
+    from models import db, connect_db, User
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/models.py", line 5, in <module>
+    db = SQLAlchemy()
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 715, in __init__
+    self.session = self.create_scoped_session(session_options)
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 748, in create_scoped_session
+    scopefunc = options.pop('scopefunc', _app_ctx_stack.__ident_func__)
+AttributeError: '_FakeStack' object has no attribute '__ident_func__'
+(venv) windie@Davids-MBP flask-wtforms-demo % pip3 install flask-sqlalchemy
+Requirement already satisfied: flask-sqlalchemy in ./venv/lib/python3.7/site-packages (3.0.3)
+Requirement already satisfied: SQLAlchemy>=1.4.18 in ./venv/lib/python3.7/site-packages (from flask-sqlalchemy) (2.0.7)
+Requirement already satisfied: Flask>=2.2 in ./venv/lib/python3.7/site-packages (from flask-sqlalchemy) (2.2.3)
+Requirement already satisfied: importlib-metadata>=3.6.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (6.1.0)
+Requirement already satisfied: Jinja2>=3.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (3.1.2)
+Requirement already satisfied: itsdangerous>=2.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (2.1.2)
+Requirement already satisfied: click>=8.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (8.1.3)
+Requirement already satisfied: Werkzeug>=2.2.2 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (2.2.3)
+Requirement already satisfied: greenlet!=0.4.17 in ./venv/lib/python3.7/site-packages (from SQLAlchemy>=1.4.18->flask-sqlalchemy) (2.0.2)
+Requirement already satisfied: typing-extensions>=4.2.0 in ./venv/lib/python3.7/site-packages (from SQLAlchemy>=1.4.18->flask-sqlalchemy) (4.5.0)
+Requirement already satisfied: zipp>=0.5 in ./venv/lib/python3.7/site-packages (from importlib-metadata>=3.6.0->Flask>=2.2->flask-sqlalchemy) (3.15.0)
+Requirement already satisfied: MarkupSafe>=2.0 in ./venv/lib/python3.7/site-packages (from Jinja2>=3.0->Flask>=2.2->flask-sqlalchemy) (2.1.2)
+WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+You should consider upgrading via the '/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/bin/python3 -m pip install --upgrade pip' command.
+(venv) windie@Davids-MBP flask-wtforms-demo % flask run
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 1050, in main
+    cli.main()
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 911, in run_command
+    raise e from None
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/app.py", line 3, in <module>
+    from models import db, connect_db, User
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/models.py", line 5, in <module>
+    db = SQLAlchemy()
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 715, in __init__
+    self.session = self.create_scoped_session(session_options)
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 748, in create_scoped_session
+    scopefunc = options.pop('scopefunc', _app_ctx_stack.__ident_func__)
+AttributeError: '_FakeStack' object has no attribute '__ident_func__'
+(venv) windie@Davids-MBP flask-wtforms-demo % flask run
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 1050, in main
+    cli.main()
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 911, in run_command
+    raise e from None
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/app.py", line 3, in <module>
+    from models import db, connect_db, User
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/models.py", line 5, in <module>
+    db = SQLAlchemy()
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 715, in __init__
+    self.session = self.create_scoped_session(session_options)
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 748, in create_scoped_session
+    scopefunc = options.pop('scopefunc', _app_ctx_stack.__ident_func__)
+AttributeError: '_FakeStack' object has no attribute '__ident_func__'
+(venv) windie@Davids-MBP flask-wtforms-demo % 
+(venv) windie@Davids-MBP flask-wtforms-demo % 
+(venv) windie@Davids-MBP flask-wtforms-demo % 
+(venv) windie@Davids-MBP flask-wtforms-demo % 
+(venv) windie@Davids-MBP flask-wtforms-demo % 
+(venv) windie@Davids-MBP flask-wtforms-demo % FLASK_ENV=development flask run
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 1050, in main
+    cli.main()
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 911, in run_command
+    raise e from None
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/app.py", line 3, in <module>
+    from models import db, connect_db, User
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/models.py", line 5, in <module>
+    db = SQLAlchemy()
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 715, in __init__
+    self.session = self.create_scoped_session(session_options)
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 748, in create_scoped_session
+    scopefunc = options.pop('scopefunc', _app_ctx_stack.__ident_func__)
+AttributeError: '_FakeStack' object has no attribute '__ident_func__'
+(venv) windie@Davids-MBP flask-wtforms-demo % pip install --upgrade flask_sqlalchemy
+Requirement already satisfied: flask_sqlalchemy in ./venv/lib/python3.7/site-packages (3.0.3)
+Requirement already satisfied: Flask>=2.2 in ./venv/lib/python3.7/site-packages (from flask_sqlalchemy) (2.2.3)
+Requirement already satisfied: SQLAlchemy>=1.4.18 in ./venv/lib/python3.7/site-packages (from flask_sqlalchemy) (2.0.7)
+Requirement already satisfied: Werkzeug>=2.2.2 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask_sqlalchemy) (2.2.3)
+Requirement already satisfied: itsdangerous>=2.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask_sqlalchemy) (2.1.2)
+Requirement already satisfied: click>=8.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask_sqlalchemy) (8.1.3)
+Requirement already satisfied: Jinja2>=3.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask_sqlalchemy) (3.1.2)
+Requirement already satisfied: importlib-metadata>=3.6.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask_sqlalchemy) (6.1.0)
+Requirement already satisfied: typing-extensions>=4.2.0 in ./venv/lib/python3.7/site-packages (from SQLAlchemy>=1.4.18->flask_sqlalchemy) (4.5.0)
+Requirement already satisfied: greenlet!=0.4.17 in ./venv/lib/python3.7/site-packages (from SQLAlchemy>=1.4.18->flask_sqlalchemy) (2.0.2)
+Requirement already satisfied: zipp>=0.5 in ./venv/lib/python3.7/site-packages (from importlib-metadata>=3.6.0->Flask>=2.2->flask_sqlalchemy) (3.15.0)
+Requirement already satisfied: MarkupSafe>=2.0 in ./venv/lib/python3.7/site-packages (from Jinja2>=3.0->Flask>=2.2->flask_sqlalchemy) (2.1.2)
+WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+You should consider upgrading via the '/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/bin/python3 -m pip install --upgrade pip' command.
+(venv) windie@Davids-MBP flask-wtforms-demo % flask run
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 1050, in main
+    cli.main()
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 911, in run_command
+    raise e from None
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/app.py", line 3, in <module>
+    from models import db, connect_db, User
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/models.py", line 5, in <module>
+    db = SQLAlchemy()
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 715, in __init__
+    self.session = self.create_scoped_session(session_options)
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 748, in create_scoped_session
+    scopefunc = options.pop('scopefunc', _app_ctx_stack.__ident_func__)
+AttributeError: '_FakeStack' object has no attribute '__ident_func__'
+(venv) windie@Davids-MBP flask-wtforms-demo % deactivate
+windie@Davids-MBP flask-wtforms-demo % ls
+VideoDemo		models.py		tests.py
+__pycache__		requirements.txt	venv
+app.py			seed.py
+forms.py		templates
+windie@Davids-MBP flask-wtforms-demo % source venv/bin/activatae
+source: no such file or directory: venv/bin/activatae
+windie@Davids-MBP flask-wtforms-demo % source venv/bin/activate 
+(venv) windie@Davids-MBP flask-wtforms-demo % pip3 install -r requirements.txt
+Requirement already satisfied: Flask in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 1)) (2.2.3)
+Requirement already satisfied: Flask-DebugToolbar in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 2)) (0.13.1)
+Requirement already satisfied: Flask-SQLAlchemy in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 3)) (3.0.3)
+Requirement already satisfied: Flask-WTF in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 4)) (1.1.1)
+Requirement already satisfied: psycopg2-binary in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 5)) (2.9.5)
+Requirement already satisfied: SQLAlchemy in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 6)) (2.0.7)
+Requirement already satisfied: WTForms in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 7)) (3.0.1)
+Requirement already satisfied: click>=8.0 in ./venv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (8.1.3)
+Requirement already satisfied: Werkzeug>=2.2.2 in ./venv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (2.2.3)
+Requirement already satisfied: Jinja2>=3.0 in ./venv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (3.1.2)
+Requirement already satisfied: importlib-metadata>=3.6.0 in ./venv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (6.1.0)
+Requirement already satisfied: itsdangerous>=2.0 in ./venv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (2.1.2)
+Requirement already satisfied: Blinker in ./venv/lib/python3.7/site-packages (from Flask-DebugToolbar->-r requirements.txt (line 2)) (1.5)
+Requirement already satisfied: typing-extensions>=4.2.0 in ./venv/lib/python3.7/site-packages (from SQLAlchemy->-r requirements.txt (line 6)) (4.5.0)
+Requirement already satisfied: greenlet!=0.4.17 in ./venv/lib/python3.7/site-packages (from SQLAlchemy->-r requirements.txt (line 6)) (2.0.2)
+Requirement already satisfied: MarkupSafe in ./venv/lib/python3.7/site-packages (from WTForms->-r requirements.txt (line 7)) (2.1.2)
+Requirement already satisfied: zipp>=0.5 in ./venv/lib/python3.7/site-packages (from importlib-metadata>=3.6.0->Flask->-r requirements.txt (line 1)) (3.15.0)
+WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+You should consider upgrading via the '/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/bin/python3 -m pip install --upgrade pip' command.
+(venv) windie@Davids-MBP flask-wtforms-demo % pip3 install flask-sqlalchemy
+Requirement already satisfied: flask-sqlalchemy in ./venv/lib/python3.7/site-packages (3.0.3)
+Requirement already satisfied: Flask>=2.2 in ./venv/lib/python3.7/site-packages (from flask-sqlalchemy) (2.2.3)
+Requirement already satisfied: SQLAlchemy>=1.4.18 in ./venv/lib/python3.7/site-packages (from flask-sqlalchemy) (2.0.7)
+Requirement already satisfied: itsdangerous>=2.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (2.1.2)
+Requirement already satisfied: click>=8.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (8.1.3)
+Requirement already satisfied: Werkzeug>=2.2.2 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (2.2.3)
+Requirement already satisfied: Jinja2>=3.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (3.1.2)
+Requirement already satisfied: importlib-metadata>=3.6.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (6.1.0)
+Requirement already satisfied: typing-extensions>=4.2.0 in ./venv/lib/python3.7/site-packages (from SQLAlchemy>=1.4.18->flask-sqlalchemy) (4.5.0)
+Requirement already satisfied: greenlet!=0.4.17 in ./venv/lib/python3.7/site-packages (from SQLAlchemy>=1.4.18->flask-sqlalchemy) (2.0.2)
+Requirement already satisfied: zipp>=0.5 in ./venv/lib/python3.7/site-packages (from importlib-metadata>=3.6.0->Flask>=2.2->flask-sqlalchemy) (3.15.0)
+Requirement already satisfied: MarkupSafe>=2.0 in ./venv/lib/python3.7/site-packages (from Jinja2>=3.0->Flask>=2.2->flask-sqlalchemy) (2.1.2)
+WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+You should consider upgrading via the '/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/bin/python3 -m pip install --upgrade pip' command.
+(venv) windie@Davids-MBP flask-wtforms-demo % pip3 install psycopg2-binary
+Requirement already satisfied: psycopg2-binary in ./venv/lib/python3.7/site-packages (2.9.5)
+WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+You should consider upgrading via the '/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/bin/python3 -m pip install --upgrade pip' command.
+(venv) windie@Davids-MBP flask-wtforms-demo % flask run
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/cli.py", line 1050, in main
+    cli.main()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/cli.py", line 911, in run_command
+    raise e from None
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/app.py", line 5, in <module>
+    from forms import AddSnackForm
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/forms.py", line 15, in <module>
+    class UserForm(FlaskForm):
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/forms.py", line 21, in UserForm
+    validators=[Optional(), Email()])
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/wtforms/validators.py", line 393, in __init__
+    raise Exception("Install 'email_validator' for email validation support.")
+Exception: Install 'email_validator' for email validation support.
+(venv) windie@Davids-MBP flask-wtforms-demo % pip3 install email-validator
+Collecting email-validator
+  Downloading email_validator-1.3.1-py2.py3-none-any.whl (22 kB)
+Collecting dnspython>=1.15.0
+  Downloading dnspython-2.3.0-py3-none-any.whl (283 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 283.7/283.7 KB 6.8 MB/s eta 0:00:00
+Collecting idna>=2.0.0
+  Using cached idna-3.4-py3-none-any.whl (61 kB)
+Installing collected packages: idna, dnspython, email-validator
+Successfully installed dnspython-2.3.0 email-validator-1.3.1 idna-3.4
+WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+You should consider upgrading via the '/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/bin/python3 -m pip install --upgrade pip' command.
+(venv) windie@Davids-MBP flask-wtforms-demo % flask run
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [30/Mar/2023 19:16:11] "GET /snacks/new?name=Bubba&price=4&quantity=1 HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2023 19:16:17] "GET /snacks/new HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2023 19:17:18] "GET /snacks/new HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2023 19:17:20] "GET /snacks/new HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2023 19:18:15] "GET /snacks/new HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2023 19:18:40] "GET /snacks/new HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2023 19:18:44] "GET / HTTP/1.1" 200 -
+[2023-03-30 19:18:46,611] ERROR in app: Exception on /add [GET]
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/app.py", line 39, in add_snack
+    @app.route("/users/<int:uid>/edit", methods=["GET", "POST"])
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: snack_add_form.html
+127.0.0.1 - - [30/Mar/2023 19:18:46] "GET /add HTTP/1.1" 500 -
+[2023-03-30 19:18:49,262] ERROR in app: Exception on /users/1/edit [GET]
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 145, in __init__
+    self._dbapi_connection = engine.raw_connection()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3275, in raw_connection
+    return self.pool.connect()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 455, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 1271, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 719, in checkout
+    rec = pool._do_get()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 169, in _do_get
+    self._dec_overflow()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 147, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 166, in _do_get
+    return self._create_connection()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 396, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 681, in __init__
+    self.__connect()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 147, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 901, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 636, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 580, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "flask_wtforms" does not exist
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/app.py", line 46, in edit_user
+    if form.validate_on_submit():
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask_sqlalchemy/query.py", line 31, in get_or_404
+    rv = self.get(ident)
+  File "<string>", line 2, in get
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/util/deprecations.py", line 383, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 1130, in get
+    return self._get_impl(ident, loading.load_on_pk_identity)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 1147, in _get_impl
+    execution_options=self._execution_options,
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 3679, in _get_impl
+    bind_arguments=bind_arguments,
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/orm/loading.py", line 672, in load_on_pk_identity
+    bind_arguments=bind_arguments,
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2235, in execute
+    _add_event=_add_event,
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2114, in _execute_internal
+    conn = self._connection_for_bind(bind)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1981, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+  File "<string>", line 2, in _connection_for_bind
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1108, in _connection_for_bind
+    conn = bind.connect()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3251, in connect
+    return self._connection_cls(self)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 148, in __init__
+    err, dialect, engine
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2413, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 145, in __init__
+    self._dbapi_connection = engine.raw_connection()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3275, in raw_connection
+    return self.pool.connect()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 455, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 1271, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 719, in checkout
+    rec = pool._do_get()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 169, in _do_get
+    self._dec_overflow()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 147, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 166, in _do_get
+    return self._create_connection()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 396, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 681, in __init__
+    self.__connect()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 906, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 147, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 901, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 636, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 580, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server on socket "/tmp/.s.PGSQL.5432" failed: FATAL:  database "flask_wtforms" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+127.0.0.1 - - [30/Mar/2023 19:18:49] "GET /users/1/edit HTTP/1.1" 500 -
+[2023-03-30 19:18:51,791] ERROR in app: Exception on /add [GET]
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/app.py", line 39, in add_snack
+    @app.route("/users/<int:uid>/edit", methods=["GET", "POST"])
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: snack_add_form.html
+127.0.0.1 - - [30/Mar/2023 19:18:51] "GET /add HTTP/1.1" 500 -
+[2023-03-30 19:20:06,475] ERROR in app: Exception on /add [GET]
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/app.py", line 39, in add_snack
+    @app.route("/users/<int:uid>/edit", methods=["GET", "POST"])
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: snack_add_form.html
+127.0.0.1 - - [30/Mar/2023 19:20:06] "GET /add HTTP/1.1" 500 -
+[2023-03-30 19:20:09,137] ERROR in app: Exception on /add [GET]
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/app.py", line 39, in add_snack
+    @app.route("/users/<int:uid>/edit", methods=["GET", "POST"])
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/venv/lib/python3.7/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: snack_add_form.html
+127.0.0.1 - - [30/Mar/2023 19:20:09] "GET /add HTTP/1.1" 500 -
+127.0.0.1 - - [30/Mar/2023 19:20:13] "GET /snacks/new HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2023 19:22:44] "GET /snacks/new HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2023 19:24:15] "GET /snacks/new HTTP/1.1" 404 -
+^C%                                                                                          (venv) windie@Davids-MBP flask-wtforms-demo % cd ..
+(venv) windie@Davids-MBP intermflask % ls
+flask-wtforms-demo
+(venv) windie@Davids-MBP intermflask % cd flask-wtforms-demo 
+(venv) windie@Davids-MBP flask-wtforms-demo % ls
+VideoDemo		models.py		tests.py
+__pycache__		requirements.txt	venv
+app.py			seed.py
+forms.py		templates
+(venv) windie@Davids-MBP flask-wtforms-demo % cd videodemo
+(venv) windie@Davids-MBP videodemo % ls
+app.py			models.py		seed.py
+forms.py		requirements.txt	templates
+(venv) windie@Davids-MBP videodemo % deacitvate
+zsh: command not found: deacitvate
+(venv) windie@Davids-MBP videodemo % deactivate
+windie@Davids-MBP videodemo % python3 -m venv venv
+sour%                                                                                        windie@Davids-MBP videodemo % source ven/bin/activate
+source: no such file or directory: ven/bin/activate
+windie@Davids-MBP videodemo % source vevn/bin/activate
+source: no such file or directory: vevn/bin/activate
+windie@Davids-MBP videodemo % source venv/bin/activate
+(venv) windie@Davids-MBP videodemo % ls
+app.py			requirements.txt	venv
+forms.py		seed.py
+models.py		templates
+(venv) windie@Davids-MBP videodemo % pip3 install -r requirement.txt 
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirement.txt'
+WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+You should consider upgrading via the '/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/venv/bin/python3.7 -m pip install --upgrade pip' command.
+(venv) windie@Davids-MBP videodemo % pip3 install -r requirements.txt
+Collecting autopep8==1.4.4
+  Using cached autopep8-1.4.4.tar.gz (114 kB)
+  Preparing metadata (setup.py) ... done
+Collecting blinker==1.4
+  Using cached blinker-1.4-py3-none-any.whl
+Collecting Click==7.0
+  Using cached Click-7.0-py2.py3-none-any.whl (81 kB)
+Collecting Flask==1.1.1
+  Using cached Flask-1.1.1-py2.py3-none-any.whl (94 kB)
+Collecting Flask-DebugToolbar==0.10.1
+  Using cached Flask_DebugToolbar-0.10.1-py2.py3-none-any.whl (326 kB)
+Collecting Flask-SQLAlchemy==2.4.1
+  Using cached Flask_SQLAlchemy-2.4.1-py2.py3-none-any.whl (17 kB)
+Collecting Flask-WTF==0.14.2
+  Using cached Flask_WTF-0.14.2-py2.py3-none-any.whl (14 kB)
+Collecting itsdangerous==1.1.0
+  Using cached itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting Jinja2==2.10.3
+  Using cached Jinja2-2.10.3-py2.py3-none-any.whl (125 kB)
+Collecting MarkupSafe==1.1.1
+  Using cached MarkupSafe-1.1.1-cp37-cp37m-macosx_10_9_x86_64.whl (16 kB)
+Collecting psycopg2-binary==2.8.4
+  Using cached psycopg2_binary-2.8.4-cp37-cp37m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (1.5 MB)
+Collecting pycodestyle==2.5.0
+  Using cached pycodestyle-2.5.0-py2.py3-none-any.whl (51 kB)
+Collecting SQLAlchemy==1.3.13
+  Using cached SQLAlchemy-1.3.13-cp37-cp37m-macosx_12_0_x86_64.whl
+Collecting Werkzeug==0.16.0
+  Using cached Werkzeug-0.16.0-py2.py3-none-any.whl (327 kB)
+Collecting WTForms==2.2.1
+  Using cached WTForms-2.2.1-py2.py3-none-any.whl (166 kB)
+Using legacy 'setup.py install' for autopep8, since package 'wheel' is not installed.
+Installing collected packages: WTForms, blinker, Werkzeug, SQLAlchemy, pycodestyle, psycopg2-binary, MarkupSafe, itsdangerous, Click, Jinja2, autopep8, Flask, Flask-WTF, Flask-SQLAlchemy, Flask-DebugToolbar
+  Running setup.py install for autopep8 ... done
+Successfully installed Click-7.0 Flask-1.1.1 Flask-DebugToolbar-0.10.1 Flask-SQLAlchemy-2.4.1 Flask-WTF-0.14.2 Jinja2-2.10.3 MarkupSafe-1.1.1 SQLAlchemy-1.3.13 WTForms-2.2.1 Werkzeug-0.16.0 autopep8-1.4.4 blinker-1.4 itsdangerous-1.1.0 psycopg2-binary-2.8.4 pycodestyle-2.5.0
+WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+You should consider upgrading via the '/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/venv/bin/python3.7 -m pip install --upgrade pip' command.
+(venv) windie@Davids-MBP videodemo % flask run
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 1050, in main
+    cli.main()
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 911, in run_command
+    raise e from None
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/app.py", line 3, in <module>
+    from models import db,  connect_db, Department, Employee, get_directory, get_directory_join, get_directory_join_class, get_directory_all_join, Project, EmployeeProject
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/models.py", line 3, in <module>
+    db = SQLAlchemy()
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 715, in __init__
+    self.session = self.create_scoped_session(session_options)
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 748, in create_scoped_session
+    scopefunc = options.pop('scopefunc', _app_ctx_stack.__ident_func__)
+AttributeError: '_FakeStack' object has no attribute '__ident_func__'
+(venv) windie@Davids-MBP videodemo % pip3 install flask-sqlalchemy
+Requirement already satisfied: flask-sqlalchemy in ./venv/lib/python3.7/site-packages (2.4.1)
+Requirement already satisfied: SQLAlchemy>=0.8.0 in ./venv/lib/python3.7/site-packages (from flask-sqlalchemy) (1.3.13)
+Requirement already satisfied: Flask>=0.10 in ./venv/lib/python3.7/site-packages (from flask-sqlalchemy) (1.1.1)
+Requirement already satisfied: click>=5.1 in ./venv/lib/python3.7/site-packages (from Flask>=0.10->flask-sqlalchemy) (7.0)
+Requirement already satisfied: Jinja2>=2.10.1 in ./venv/lib/python3.7/site-packages (from Flask>=0.10->flask-sqlalchemy) (2.10.3)
+Requirement already satisfied: Werkzeug>=0.15 in ./venv/lib/python3.7/site-packages (from Flask>=0.10->flask-sqlalchemy) (0.16.0)
+Requirement already satisfied: itsdangerous>=0.24 in ./venv/lib/python3.7/site-packages (from Flask>=0.10->flask-sqlalchemy) (1.1.0)
+Requirement already satisfied: MarkupSafe>=0.23 in ./venv/lib/python3.7/site-packages (from Jinja2>=2.10.1->Flask>=0.10->flask-sqlalchemy) (1.1.1)
+WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+You should consider upgrading via the '/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/venv/bin/python3.7 -m pip install --upgrade pip' command.
+(venv) windie@Davids-MBP videodemo % pip3 install psycopg2-binary
+Requirement already satisfied: psycopg2-binary in ./venv/lib/python3.7/site-packages (2.8.4)
+WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+You should consider upgrading via the '/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/venv/bin/python3.7 -m pip install --upgrade pip' command.
+(venv) windie@Davids-MBP videodemo % flask run 
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 1050, in main
+    cli.main()
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 911, in run_command
+    raise e from None
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/app.py", line 3, in <module>
+    from models import db,  connect_db, Department, Employee, get_directory, get_directory_join, get_directory_join_class, get_directory_all_join, Project, EmployeeProject
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/models.py", line 3, in <module>
+    db = SQLAlchemy()
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 715, in __init__
+    self.session = self.create_scoped_session(session_options)
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 748, in create_scoped_session
+    scopefunc = options.pop('scopefunc', _app_ctx_stack.__ident_func__)
+AttributeError: '_FakeStack' object has no attribute '__ident_func__'
+(venv) windie@Davids-MBP videodemo % pip3 freeze > requirements.txt
+(venv) windie@Davids-MBP videodemo % flask run
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 1050, in main
+    cli.main()
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 911, in run_command
+    raise e from None
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/app.py", line 3, in <module>
+    from models import db,  connect_db, Department, Employee, get_directory, get_directory_join, get_directory_join_class, get_directory_all_join, Project, EmployeeProject
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/models.py", line 3, in <module>
+    db = SQLAlchemy()
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 715, in __init__
+    self.session = self.create_scoped_session(session_options)
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 748, in create_scoped_session
+    scopefunc = options.pop('scopefunc', _app_ctx_stack.__ident_func__)
+AttributeError: '_FakeStack' object has no attribute '__ident_func__'
+(venv) windie@Davids-MBP videodemo % flask rubn
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 1050, in main
+    cli.main()
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1651, in invoke
+    cmd_name, cmd, args = self.resolve_command(ctx, args)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1698, in resolve_command
+    cmd = self.get_command(ctx, cmd_name)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 578, in get_command
+    app = info.load_app()
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/app.py", line 3, in <module>
+    from models import db,  connect_db, Department, Employee, get_directory, get_directory_join, get_directory_join_class, get_directory_all_join, Project, EmployeeProject
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/models.py", line 3, in <module>
+    db = SQLAlchemy()
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 715, in __init__
+    self.session = self.create_scoped_session(session_options)
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 748, in create_scoped_session
+    scopefunc = options.pop('scopefunc', _app_ctx_stack.__ident_func__)
+AttributeError: '_FakeStack' object has no attribute '__ident_func__'
+(venv) windie@Davids-MBP videodemo % flask rub 
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 1050, in main
+    cli.main()
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1651, in invoke
+    cmd_name, cmd, args = self.resolve_command(ctx, args)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1698, in resolve_command
+    cmd = self.get_command(ctx, cmd_name)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 578, in get_command
+    app = info.load_app()
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/app.py", line 3, in <module>
+    from models import db,  connect_db, Department, Employee, get_directory, get_directory_join, get_directory_join_class, get_directory_all_join, Project, EmployeeProject
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/models.py", line 3, in <module>
+    db = SQLAlchemy()
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 715, in __init__
+    self.session = self.create_scoped_session(session_options)
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 748, in create_scoped_session
+    scopefunc = options.pop('scopefunc', _app_ctx_stack.__ident_func__)
+AttributeError: '_FakeStack' object has no attribute '__ident_func__'
+(venv) windie@Davids-MBP videodemo % flask run
+Traceback (most recent call last):
+  File "/usr/local/bin/flask", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 1050, in main
+    cli.main()
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 911, in run_command
+    raise e from None
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 897, in run_command
+    app = info.load_app()
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 312, in load_app
+    app = locate_app(import_name, None, raise_if_not_found=False)
+  File "/usr/local/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/app.py", line 3, in <module>
+    from models import db,  connect_db, Department, Employee, get_directory, get_directory_join, get_directory_join_class, get_directory_all_join, Project, EmployeeProject
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/models.py", line 3, in <module>
+    db = SQLAlchemy()
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 715, in __init__
+    self.session = self.create_scoped_session(session_options)
+  File "/usr/local/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py", line 748, in create_scoped_session
+    scopefunc = options.pop('scopefunc', _app_ctx_stack.__ident_func__)
+AttributeError: '_FakeStack' object has no attribute '__ident_func__'
+(venv) windie@Davids-MBP videodemo % deactivate
+windie@Davids-MBP videodemo % source venv/bin/activate
+(venv) windie@Davids-MBP videodemo % flask run
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2023-03-30 19:33:07,562] ERROR in app: Exception on /snacks/new [GET]
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/venv/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/venv/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/venv/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/windie/Documents/Springboard/SEC/IntermFlask/flask-wtforms-demo/VideoDemo/app.py", line 35, in add_snack
+    if form.validate_on_submit():
+AttributeError: 'AddSnackForm' object has no attribute 'validate_on_submit'
+127.0.0.1 - - [30/Mar/2023 19:33:07] "GET /snacks/new HTTP/1.1" 500 -
+^C%                                                                                          (venv) windie@Davids-MBP videodemo % deactivate
+windie@Davids-MBP videodemo % ls
+__pycache__		models.py		templates
+app.py			requirements.txt	venv
+forms.py		seed.py
+windie@Davids-MBP videodemo % cd  
+windie@Davids-MBP ~ % cd documents/springboard/sec/flsk
+cd: no such file or directory: documents/springboard/sec/flsk
+windie@Davids-MBP ~ % cd documents/springboard/sec/flask
+windie@Davids-MBP flask % ls
+firstflaskapp			flask-wtforms-demo
+flask-apis			pokeapi
+flask-cupcakes			source
+flask-hashing-login-demo	venv
+flask-rest-json-api-demo
+windie@Davids-MBP flask % cd flask-wtforms-demo       
+windie@Davids-MBP flask-wtforms-demo % ls
+VideoAlong		forms.py		templates
+VideoDemo		models.py		tests.py
+__pycache__		requirements.txt
+app.py			seed.py
+windie@Davids-MBP flask-wtforms-demo % cd videoalong
+windie@Davids-MBP videoalong % ls
+__pycache__		models.py		venv
+app.py			requirements.txt
+forms.py		templates
+windie@Davids-MBP videoalong % source venv/bin/activate
+(venv) windie@Davids-MBP videoalong % pip3 install -r requirements.txt
+Requirement already satisfied: Flask in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 1)) (2.2.3)
+Requirement already satisfied: Flask-DebugToolbar in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 2)) (0.13.1)
+Requirement already satisfied: Flask-SQLAlchemy in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 3)) (3.0.3)
+Requirement already satisfied: Flask-WTF in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 4)) (1.1.1)
+Requirement already satisfied: psycopg2-binary in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 5)) (2.9.5)
+Requirement already satisfied: SQLAlchemy in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 6)) (2.0.7)
+Requirement already satisfied: WTForms in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 7)) (3.0.1)
+Requirement already satisfied: itsdangerous>=2.0 in ./venv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (2.1.2)
+Requirement already satisfied: Jinja2>=3.0 in ./venv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (3.1.2)
+Requirement already satisfied: importlib-metadata>=3.6.0 in ./venv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (6.1.0)
+Requirement already satisfied: click>=8.0 in ./venv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (8.1.3)
+Requirement already satisfied: Werkzeug>=2.2.2 in ./venv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (2.2.3)
+Requirement already satisfied: Blinker in ./venv/lib/python3.7/site-packages (from Flask-DebugToolbar->-r requirements.txt (line 2)) (1.5)
+Requirement already satisfied: typing-extensions>=4.2.0 in ./venv/lib/python3.7/site-packages (from SQLAlchemy->-r requirements.txt (line 6)) (4.5.0)
+Requirement already satisfied: greenlet!=0.4.17 in ./venv/lib/python3.7/site-packages (from SQLAlchemy->-r requirements.txt (line 6)) (2.0.2)
+Requirement already satisfied: MarkupSafe in ./venv/lib/python3.7/site-packages (from WTForms->-r requirements.txt (line 7)) (2.1.2)
+Requirement already satisfied: zipp>=0.5 in ./venv/lib/python3.7/site-packages (from importlib-metadata>=3.6.0->Flask->-r requirements.txt (line 1)) (3.15.0)
+WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+You should consider upgrading via the '/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/venv/bin/python3.7 -m pip install --upgrade pip' command.
+(venv) windie@Davids-MBP videoalong % flask run
+Usage: flask run [OPTIONS]
+Try 'flask run --help' for help.
+
+Error: While importing 'app', an ImportError was raised:
+
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/venv/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/app.py", line 3, in <module>
+    from models import db, connect_db, User, Employee
+ImportError: cannot import name 'connect_db' from 'models' (/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/models.py)
+
+(venv) windie@Davids-MBP videoalong % pip3 install -r requirements.txt
+Requirement already satisfied: Flask in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 1)) (2.2.3)
+Requirement already satisfied: Flask-DebugToolbar in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 2)) (0.13.1)
+Requirement already satisfied: Flask-SQLAlchemy in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 3)) (3.0.3)
+Requirement already satisfied: Flask-WTF in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 4)) (1.1.1)
+Requirement already satisfied: psycopg2-binary in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 5)) (2.9.5)
+Requirement already satisfied: SQLAlchemy in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 6)) (2.0.7)
+Requirement already satisfied: WTForms in ./venv/lib/python3.7/site-packages (from -r requirements.txt (line 7)) (3.0.1)
+Requirement already satisfied: Werkzeug>=2.2.2 in ./venv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (2.2.3)
+Requirement already satisfied: click>=8.0 in ./venv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (8.1.3)
+Requirement already satisfied: Jinja2>=3.0 in ./venv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (3.1.2)
+Requirement already satisfied: itsdangerous>=2.0 in ./venv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (2.1.2)
+Requirement already satisfied: importlib-metadata>=3.6.0 in ./venv/lib/python3.7/site-packages (from Flask->-r requirements.txt (line 1)) (6.1.0)
+Requirement already satisfied: Blinker in ./venv/lib/python3.7/site-packages (from Flask-DebugToolbar->-r requirements.txt (line 2)) (1.5)
+Requirement already satisfied: typing-extensions>=4.2.0 in ./venv/lib/python3.7/site-packages (from SQLAlchemy->-r requirements.txt (line 6)) (4.5.0)
+Requirement already satisfied: greenlet!=0.4.17 in ./venv/lib/python3.7/site-packages (from SQLAlchemy->-r requirements.txt (line 6)) (2.0.2)
+Requirement already satisfied: MarkupSafe in ./venv/lib/python3.7/site-packages (from WTForms->-r requirements.txt (line 7)) (2.1.2)
+Requirement already satisfied: zipp>=0.5 in ./venv/lib/python3.7/site-packages (from importlib-metadata>=3.6.0->Flask->-r requirements.txt (line 1)) (3.15.0)
+WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+You should consider upgrading via the '/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/venv/bin/python3.7 -m pip install --upgrade pip' command.
+(venv) windie@Davids-MBP videoalong % flask run
+Usage: flask run [OPTIONS]
+Try 'flask run --help' for help.
+
+Error: While importing 'app', an ImportError was raised:
+
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/venv/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/app.py", line 3, in <module>
+    from models import db, connect_db, User, Employee
+ImportError: cannot import name 'connect_db' from 'models' (/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/models.py)
+
+(venv) windie@Davids-MBP videoalong % pip3 install flask-sqlalchemy
+Requirement already satisfied: flask-sqlalchemy in ./venv/lib/python3.7/site-packages (3.0.3)
+Requirement already satisfied: SQLAlchemy>=1.4.18 in ./venv/lib/python3.7/site-packages (from flask-sqlalchemy) (2.0.7)
+Requirement already satisfied: Flask>=2.2 in ./venv/lib/python3.7/site-packages (from flask-sqlalchemy) (2.2.3)
+Requirement already satisfied: itsdangerous>=2.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (2.1.2)
+Requirement already satisfied: Werkzeug>=2.2.2 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (2.2.3)
+Requirement already satisfied: click>=8.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (8.1.3)
+Requirement already satisfied: Jinja2>=3.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (3.1.2)
+Requirement already satisfied: importlib-metadata>=3.6.0 in ./venv/lib/python3.7/site-packages (from Flask>=2.2->flask-sqlalchemy) (6.1.0)
+Requirement already satisfied: typing-extensions>=4.2.0 in ./venv/lib/python3.7/site-packages (from SQLAlchemy>=1.4.18->flask-sqlalchemy) (4.5.0)
+Requirement already satisfied: greenlet!=0.4.17 in ./venv/lib/python3.7/site-packages (from SQLAlchemy>=1.4.18->flask-sqlalchemy) (2.0.2)
+Requirement already satisfied: zipp>=0.5 in ./venv/lib/python3.7/site-packages (from importlib-metadata>=3.6.0->Flask>=2.2->flask-sqlalchemy) (3.15.0)
+Requirement already satisfied: MarkupSafe>=2.0 in ./venv/lib/python3.7/site-packages (from Jinja2>=3.0->Flask>=2.2->flask-sqlalchemy) (2.1.2)
+WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+You should consider upgrading via the '/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/venv/bin/python3.7 -m pip install --upgrade pip' command.
+(venv) windie@Davids-MBP videoalong % pip3 install psycopg2-binary
+Requirement already satisfied: psycopg2-binary in ./venv/lib/python3.7/site-packages (2.9.5)
+WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+You should consider upgrading via the '/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/venv/bin/python3.7 -m pip install --upgrade pip' command.
+(venv) windie@Davids-MBP videoalong % flask run
+Usage: flask run [OPTIONS]
+Try 'flask run --help' for help.
+
+Error: While importing 'app', an ImportError was raised:
+
+Traceback (most recent call last):
+  File "/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/venv/lib/python3.7/site-packages/flask/cli.py", line 218, in locate_app
+    __import__(module_name)
+  File "/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/app.py", line 3, in <module>
+    from models import db, connect_db, User, Employee
+ImportError: cannot import name 'connect_db' from 'models' (/Users/windie/Documents/Springboard/SEC/Flask/flask-wtforms-demo/VideoAlong/models.py)
+
+(venv) windie@Davids-MBP videoalong % 
